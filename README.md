@@ -45,3 +45,12 @@ UPDATE package.json (1153 bytes)
 UPDATE src/app/app.module.ts (797 bytes)
 UPDATE src/index.html (478 bytes)
 
+### Run with PWA support 
+http-server -p 8080 -c-1 dist/<project-name>
+http-server -p 8080 -c-1 ./dist/angular-pwa  
+
+### Add app-shell
+ng generate app-shell
+
+
+
